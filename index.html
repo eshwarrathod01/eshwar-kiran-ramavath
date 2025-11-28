@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eshwar Kiran Ramavath - AI Frontend Engineer specializing in real-time dashboards, AI solutions, and modern web applications. Expert in React, TypeScript, and enterprise AI systems.">
+    <meta name="keywords" content="AI Engineer, Frontend Developer, React Developer, AI Solutions, Web Development, Data Visualization, Cloud Solutions">
+    <meta name="author" content="Eshwar Kiran Ramavath">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Eshwar Kiran Ramavath - AI Frontend Engineer & Technology Consultant">
+    <meta property="og:description" content="Expert in building AI-powered solutions, real-time dashboards, and modern web applications">
+    <meta property="og:type" content="website">
+    
+    <title>Eshwar Kiran Ramavath - AI Frontend Engineer & Technology Consultant</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">
+                    <span class="logo-icon">EK</span>
+                    <span class="logo-text">Eshwar Kiran</span>
+                </a>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Eshwar Kiran Ramavath</span>
+                    </h1>
+                    <h2 class="hero-subtitle">AI Frontend Engineer & Technology Consultant</h2>
+                    <p class="hero-description">
+                        Building real-time, data-driven dashboards and high-performance AI interfaces. 
+                        Transforming complex system telemetry into intuitive experiences that improve 
+                        trust, observability, and decision-making.
+                    </p>
+                    
+                    <div class="hero-badges">
+                        <span class="badge"><i class="fas fa-certificate"></i> AWS Certified</span>
+                        <span class="badge"><i class="fas fa-certificate"></i> Google Cloud AI</span>
+                        <span class="badge"><i class="fas fa-certificate"></i> Azure AI</span>
+                    </div>
+                    
+                    <div class="hero-cta">
+                        <a href="#services" class="btn btn-primary">
+                            <span>Explore Services</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Talk</span>
+                            <i class="fas fa-comment-dots"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <a href="mailto:r.eshwarkiran@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/eshwar-kiran-rathod-4a0b611ab/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="hero-image-container">
+                        <div class="tech-orbit orbit-1">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="tech-orbit orbit-2">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="tech-orbit orbit-3">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="tech-orbit orbit-4">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get To Know Me</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-description">
+                    AI Frontend Engineer with a passion for building intelligent systems
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-heading">Professional Summary</h3>
+                    <p>
+                        AI Frontend Engineer with extensive experience building real-time, data-driven 
+                        dashboards and high-performance interfaces using <strong>React</strong>, 
+                        <strong>TypeScript</strong>, and modern visualization libraries.
+                    </p>
+                    <p>
+                        Skilled in converting complex system telemetry into intuitive UI, integrating 
+                        REST/WebSocket streams, and implementing scalable component architectures with 
+                        Tailwind, Zustand, and Radix UI.
+                    </p>
+                    <p>
+                        Strong understanding of UI performance, rendering pipelines, and responsive 
+                        component design. Passionate about building interfaces that improve trust, 
+                        observability, and decision-making in AI and distributed systems.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Real-Time Dashboards</h4>
+                                <p>Expert in building live data visualization systems</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>AI Integration</h4>
+                                <p>Specialized in LLM-powered applications and RAG systems</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Full-Stack Development</h4>
+                                <p>End-to-end solution architecture and implementation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Delivered</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Cloud Certifications</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I Offer</span>
+                <h2 class="section-title">Business Solutions & Services</h2>
+                <p class="section-description">
+                    Comprehensive technology solutions tailored to your business needs
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- AI-Powered Solutions -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="service-title">AI-Powered Solutions</h3>
+                    <p class="service-description">
+                        Transform your business with cutting-edge AI technology
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Chatbot Development</li>
+                        <li><i class="fas fa-check"></i> Conversational AI Systems</li>
+                        <li><i class="fas fa-check"></i> Intelligent Document Processing</li>
+                        <li><i class="fas fa-check"></i> AI-Driven Analytics & Insights</li>
+                        <li><i class="fas fa-check"></i> Custom AI Model Development</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Web Development -->
+                <div class="service-card featured">
+                    <div class="featured-badge">Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">
+                        Modern, responsive web applications built with latest technologies
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Full-Stack Web Applications</li>
+                        <li><i class="fas fa-check"></i> Real-Time Dashboards</li>
+                        <li><i class="fas fa-check"></i> Progressive Web Apps (PWAs)</li>
+                        <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                        <li><i class="fas fa-check"></i> API Development & Integration</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Business Process Automation -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="service-title">Business Process Automation</h3>
+                    <p class="service-description">
+                        Streamline operations and boost productivity
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom CRM Systems</li>
+                        <li><i class="fas fa-check"></i> HRM Solutions</li>
+                        <li><i class="fas fa-check"></i> Workflow Automation</li>
+                        <li><i class="fas fa-check"></i> Data Integration Services</li>
+                        <li><i class="fas fa-check"></i> Low-Code Platform Implementation</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Cloud & DevOps -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="service-title">Cloud & DevOps Solutions</h3>
+                    <p class="service-description">
+                        Scalable cloud infrastructure and seamless deployment
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cloud Migration & Architecture</li>
+                        <li><i class="fas fa-check"></i> CI/CD Pipeline Implementation</li>
+                        <li><i class="fas fa-check"></i> Container Orchestration</li>
+                        <li><i class="fas fa-check"></i> Infrastructure as Code</li>
+                        <li><i class="fas fa-check"></i> Monitoring & Observability</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Data Engineering -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="service-title">Data Engineering & Analytics</h3>
+                    <p class="service-description">
+                        Turn data into actionable insights
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> ETL/ELT Pipeline Development</li>
+                        <li><i class="fas fa-check"></i> Data Warehousing Solutions</li>
+                        <li><i class="fas fa-check"></i> Real-Time Data Streaming</li>
+                        <li><i class="fas fa-check"></i> Business Intelligence Dashboards</li>
+                        <li><i class="fas fa-check"></i> Data Lake Implementation</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Consultation -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="service-title">Technology Consultation</h3>
+                    <p class="service-description">
+                        Strategic guidance for your digital transformation
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Technology Stack Selection</li>
+                        <li><i class="fas fa-check"></i> Architecture Design & Review</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                        <li><i class="fas fa-check"></i> Security Best Practices</li>
+                        <li><i class="fas fa-check"></i> Team Training & Mentorship</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- CTA Box -->
+            <div class="services-cta">
+                <div class="services-cta-content">
+                    <h3>Ready to Transform Your Business?</h3>
+                    <p>Let's discuss how I can help you achieve your technology goals</p>
+                </div>
+                <a href="#contact" class="btn btn-primary">
+                    <span>Get Started</span>
+                    <i class="fas fa-rocket"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Technical Expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-description">
+                    Comprehensive skill set across modern web and AI technologies
+                </p>
+            </div>
+            
+            <div class="skills-container">
+                <!-- Frontend Skills -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ReactJS</span>
+                        <span class="skill-tag">Redux</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Vite</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">ES6+</span>
+                        <span class="skill-tag">D3.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Radix UI</span>
+                        <span class="skill-tag">Zustand</span>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">.NET 9</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">WebSockets</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">MCP Server</span>
+                    </div>
+                </div>
+                
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+                
+                <!-- AI & Machine Learning -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Machine Learning</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">GPT-4</span>
+                        <span class="skill-tag">Claude</span>
+                        <span class="skill-tag">Gemini</span>
+                        <span class="skill-tag">RAG</span>
+                        <span class="skill-tag">Hugging Face</span>
+                        <span class="skill-tag">OpenAI APIs</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Vertex AI</span>
+                        <span class="skill-tag">Azure ML</span>
+                        <span class="skill-tag">SageMaker</span>
+                    </div>
+                </div>
+                
+                <!-- DevOps & Cloud -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Helm</span>
+                        <span class="skill-tag">Argo</span>
+                        <span class="skill-tag">Ansible</span>
+                    </div>
+                </div>
+                
+                <!-- Data & Databases -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Data & Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">DB2</span>
+                        <span class="skill-tag">FAISS</span>
+                        <span class="skill-tag">Pinecone</span>
+                        <span class="skill-tag">Weaviate</span>
+                        <span class="skill-tag">Airflow</span>
+                        <span class="skill-tag">MLflow</span>
+                        <span class="skill-tag">dbt</span>
+                        <span class="skill-tag">ETL/ELT</span>
+                    </div>
+                </div>
+                
+                <!-- Tools & Platforms -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Vercel</span>
+                        <span class="skill-tag">Netlify</span>
+                        <span class="skill-tag">Vitest</span>
+                        <span class="skill-tag">Playwright</span>
+                        <span class="skill-tag">ServiceNow</span>
+                        <span class="skill-tag">Salesforce</span>
+                        <span class="skill-tag">Power Automate</span>
+                        <span class="skill-tag">N8N</span>
+                        <span class="skill-tag">Dialogflow</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Career Journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-description">
+                    A track record of delivering innovative solutions across leading organizations
+                </p>
+            </div>
+            
+            <div class="timeline">
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            January 2025 – Present
+                        </div>
+                        <h3 class="timeline-title">AI Engineer</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Tata Consultancy Services (TCS) | Remote, USA
+                        </h4>
+                        <ul class="timeline-description">
+                            <li>Built interactive dashboards and real-time visualization tools using React + TypeScript</li>
+                            <li>Integrated REST and WebSocket endpoints to stream live metrics</li>
+                            <li>Developed reusable component libraries with Tailwind + Radix UI</li>
+                            <li>Implemented state management using Zustand/Redux</li>
+                            <li>Worked with backend teams to integrate Python/Node APIs</li>
+                            <li>Implemented visualization features using Recharts/visx</li>
+                            <li>Improved rendering performance by optimizing re-renders</li>
+                            <li>Deployed systems using Vercel, configured CI/CD workflows</li>
+                            <li>Built RAG-based enterprise Q&A modules using LangChain + FAISS</li>
+                            <li>Automated environment provisioning via Python + Ansible</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">WebSocket</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">LangChain</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            January 2024 – May 2024
+                        </div>
+                        <h3 class="timeline-title">Software Engineer, Internship</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Springer Capital
+                        </h4>
+                        <ul class="timeline-description">
+                            <li>Implemented NLP-based classification models for customer support automation</li>
+                            <li>Assisted in migration of legacy rule-based workflows into ML-driven solutions</li>
+                            <li>Collaborated with cross-functional teams to integrate AI models into production systems</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            May 2022 – March 2023
+                        </div>
+                        <h3 class="timeline-title">Software Engineer</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            LTI Mindtree | Hyderabad, India
+                        </h4>
+                        <ul class="timeline-description">
+                            <li>Led development of a React + Node.js Test Data Management tool</li>
+                            <li>Collaborated with cloud, data, and UI teams to integrate AI microservices</li>
+                            <li>Developed LLM-based document automation using Azure OpenAI</li>
+                            <li>Implemented ETL workflows using Airflow + Spark</li>
+                            <li>Created CI/CD pipelines with Git, Docker, and Ansible</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Azure OpenAI</span>
+                            <span class="tag">Airflow</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Portfolio Showcase</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    Innovative solutions demonstrating technical excellence and business impact
+                </p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ai">AI & ML</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web ai">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">WebSocket</span>
+                            <span class="project-tag">D3.js</span>
+                        </div>
+                        <h3 class="project-title">Real-Time Telemetry Dashboard</h3>
+                        <p class="project-description">
+                            Built a live dashboard streaming device metrics via WebSockets. Created custom 
+                            visualizations using Recharts + visx, with filters, event timelines, and live 
+                            anomaly indicators for real-time system monitoring.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-bolt"></i>
+                                <span>Real-time streaming</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Custom visualizations</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="ai web">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">FastAPI</span>
+                            <span class="project-tag">ML</span>
+                        </div>
+                        <h3 class="project-title">AI Model Monitoring UI</h3>
+                        <p class="project-description">
+                            Developed an interface showing drift alerts, model version changes, and system 
+                            events. Integrated with Python FastAPI backend for real-time updates, providing 
+                            comprehensive model observability.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span>Drift detection</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-sync"></i>
+                                <span>Live monitoring</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-category="devops ai">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-infinity"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">CI/CD</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Ansible</span>
+                        </div>
+                        <h3 class="project-title">AI-Orchestrated CI/CD Pipeline</h3>
+                        <p class="project-description">
+                            Built AI-enhanced monitoring dashboards with real-time feedback. Developed backend 
+                            modules that interpret CI logs via LLM reasoning. Reduced manual remediation by 40% 
+                            through intelligent automation.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-percentage"></i>
+                                <span>40% efficiency gain</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-brain"></i>
+                                <span>LLM-powered</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">FAISS</span>
+                            <span class="project-tag">LangChain</span>
+                        </div>
+                        <h3 class="project-title">Enterprise RAG Knowledge Assistant</h3>
+                        <p class="project-description">
+                            Designed a FAISS-based similarity search pipeline. Integrated APIs, DB connectors, 
+                            and document stores for multi-source data access, enabling intelligent enterprise 
+                            knowledge retrieval and Q&A.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-search"></i>
+                                <span>Semantic search</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-database"></i>
+                                <span>Multi-source data</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Master of Science in Computer Science</h3>
+                        <h4 class="education-school">Texas A&M University – Kingsville</h4>
+                        <div class="education-details">
+                            <span class="education-gpa">
+                                <i class="fas fa-award"></i>
+                                GPA: 3.8 / 4.0
+                            </span>
+                            <span class="education-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Texas, USA
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Bachelor of Technology in Computer Science</h3>
+                        <h4 class="education-school">Kakatiya University</h4>
+                        <div class="education-details">
+                            <span class="education-gpa">
+                                <i class="fas fa-award"></i>
+                                GPA: 3.7 / 4.0
+                            </span>
+                            <span class="education-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Hyderabad, India
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3 class="certifications-title">Professional Certifications</h3>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="certification-badge">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <h4>Certified Generative AI in Google Cloud</h4>
+                        <p>Google Cloud Platform</p>
+                    </div>
+                    <div class="certification-card">
+                        <div class="certification-badge">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <h4>AWS Certified Cloud Practitioner</h4>
+                        <p>Amazon Web Services</p>
+                    </div>
+                    <div class="certification-card">
+                        <div class="certification-badge">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <h4>Azure AI Fundamentals (AZ-900)</h4>
+                        <p>Microsoft Azure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Client Feedback</span>
+                <h2 class="section-title">What Clients Say</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Exceptional work on our real-time analytics dashboard. The interface is intuitive 
+                        and the performance is outstanding. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Tech Startup CEO</h4>
+                            <p>Silicon Valley</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The AI chatbot solution transformed our customer service. Response time decreased 
+                        by 60% and customer satisfaction increased significantly."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>E-commerce Director</h4>
+                            <p>Retail Industry</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Professional, responsive, and delivered exactly what we needed. The CI/CD pipeline 
+                        implementation saved us countless hours of manual work."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>CTO</h4>
+                            <p>Financial Services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Let's Build Something Amazing Together</h2>
+                <p class="cta-description">
+                    Whether you need a cutting-edge AI solution, a modern web application, or expert 
+                    consultation, I'm here to help transform your vision into reality.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        <span>Start Your Project</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="mailto:r.eshwarkiran@gmail.com" class="btn btn-secondary btn-large">
+                        <span>Send Email</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Free Consultation</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Quick Response</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Flexible Engagement</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-description">
+                    Ready to discuss your next project? Let's connect!
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Let's Connect</h3>
+                    <p class="contact-info-text">
+                        I'm always open to discussing new projects, creative ideas, or opportunities 
+                        to be part of your vision. Feel free to reach out!
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:r.eshwarkiran@gmail.com">r.eshwarkiran@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Dallas, TX, USA</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/eshwar-kiran-rathod-4a0b611ab/" target="_blank" rel="noopener noreferrer">Connect with me</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/eshwar-kiran-rathod-4a0b611ab/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:r.eshwarkiran@gmail.com" class="social-link" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Eshwar Kiran Ramavath</h3>
+                    <p>AI Frontend Engineer & Technology Consultant</p>
+                    <p class="footer-tagline">Building the future, one line of code at a time.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">AI Solutions</a></li>
+                            <li><a href="#services">Web Development</a></li>
+                            <li><a href="#services">Cloud & DevOps</a></li>
+                            <li><a href="#services">Consultation</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="mailto:r.eshwarkiran@gmail.com">Email</a></li>
+                            <li><a href="https://www.linkedin.com/in/eshwar-kiran-rathod-4a0b611ab/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Eshwar Kiran Ramavath. All rights reserved.</p>
+                <p class="footer-love">Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
